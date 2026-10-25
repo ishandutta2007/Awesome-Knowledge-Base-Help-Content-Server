@@ -1,6 +1,6 @@
 # Awesome-Knowledge-Base-Help-Content-Server
 
-## Top Knowledge Base & Help Content Server Ecosystem
+### Top Knowledge Base & Help Content Server Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Self-Hosted Documentation, Collaborative Wikis & Help Center Infrastructure*  
@@ -69,7 +69,7 @@ Star the repo if you find it useful!
 Let's make knowledge base and help content servers more open, collaborative, and data-sovereign.
 # Awesome-Knowledge-Base-Help-Content-Server
 
-# Top Knowledge Base & Help Content Server Ecosystem
+## Top Knowledge Base & Help Content Server Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Self-Hosted Documentation, Collaborative Wikis & Help Center Infrastructure*  
