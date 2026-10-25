@@ -69,3 +69,70 @@ Star the repo if you find it useful!
 Let's make knowledge base and help content servers more open, collaborative, and data-sovereign.
 # Awesome-Knowledge-Base-Help-Content-Server
 
+# Top Knowledge Base & Help Content Server Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Self-Hosted Documentation, Collaborative Wikis & Help Center Infrastructure*  
+**Last updated: March 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Knowledge Base & Help Content Servers**. These tools help teams create, organize, and publish help articles, internal documentation, and self-service knowledge bases — with a spectrum running from polished commercial platforms to self-hosted wikis that keep your content on your own infrastructure.
+
+**Examples** include Outline, Docmost, BookStack, Wiki.js, Paperless-ngx, and Apache Answer (the category leaders).
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, collaborative editing, and transparent content ownership — especially relevant as **Outline** delivers a Notion-class experience with full data ownership [citation:2][citation:9], and **Docmost** offers real-time CRDT-based collaboration without per-seat fees [citation:3][citation:10].
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **Zendesk Guide** — **The reference help center platform.** Self-service knowledge base with article management, search, and multi-brand support tied to Zendesk ticketing. **Subscription-based** per agent. **Best for Zendesk customers** wanting a help center integrated with their support workflows, accepting per-seat pricing.
+
+- **Document360** — **The knowledge base platform for SaaS products.** Versioning, analytics, and multi-language support with a polished editor. **Subscription-based** per-project. **Best for SaaS companies** wanting a hosted knowledge base separate from their codebase.
+
+- **Adobe RoboHelp Server** — Enterprise help authoring and publishing server. **Subscription-based** as part of Adobe Technical Communication Suite. **Best for enterprises** already standardized on Adobe's technical communication toolchain.
+
+## Open-Source GitHub Projects
+
+- **Outline** — **The most polished open-source team wiki and knowledge base.** **Business Source License (BSL)**, free for self-hosting with full data ownership [citation:2]. **A fast, beautiful Notion alternative** with real-time collaborative editing, Markdown support, nested collections, and lightning-fast full-text search [citation:2][citation:9]. **The critical caveat**: **Outline has no password login** — you must connect an OAuth provider (Google, Slack, Microsoft, or generic OIDC) before you can sign in [citation:9]. **Local file storage is supported**, dropping the stack to three services (app, PostgreSQL, Redis) with no S3 bucket required [citation:9]. **Best for teams wanting a genuinely polished Notion-class wiki** self-hosted at flat cost, accepting SSO-only login as the trade-off.
+
+- **Docmost** — **The open-source Confluence and Notion alternative with real-time collaboration.** **AGPL-3.0 core** with Enterprise Edition features under a separate license [citation:3][citation:10]. **CRDT-based concurrent editing** with no conflicts, a rich block editor with tables, code blocks, callouts, diagrams (Mermaid and Draw.io), math (KaTeX), and file attachments [citation:3]. **Spaces and permissions** for organizing by team or department, full-text search, page history and versioning, and import support from Confluence, Notion, Markdown, and HTML [citation:3][citation:10]. **Architecture**: Node.js (NestJS) + React application, PostgreSQL 16, and Redis 7 [citation:10]. **Best for teams wanting a modern Confluence alternative** with real-time collaboration and a clean editor, accepting the AGPL license and the Enterprise tier for SSO/LDAP/API access [citation:3].
+
+- **BookStack** — **The opinionated, simple documentation platform.** **MIT licensed**, designed to provide a **pleasant and simple out-of-the-box experience** — new users should find it intuitive with only basic word-processing skills required [citation:4]. **Hierarchical organization**: Books → Chapters → Pages with drag-and-drop, cross-linking, tags, and templates [citation:4]. **Rich editing**: WYSIWYG with live preview, Markdown support, code syntax highlighting, and **built-in diagrams.net drawing** [citation:4]. **Permissions**: role-based access down to per-book/chapter/page, **OIDC, SAML2, and LDAP integration**, and **MFA with TOTP** [citation:4]. **Not designed as an extensible platform** — it is deliberately opinionated and focused on core documentation [citation:4]. **Best for teams wanting straightforward documentation** without complexity overhead, especially those who find Confluence or Notion too heavy.
+
+- **Wiki.js** — **The modern, lightweight wiki built on Node.js, Git, and Markdown.** Open-source, with **Git-backed content storage** and a Markdown editor [citation:5][citation:12]. **Account management, authentication, assets management, and background agent for git sync** are all supported [citation:5]. **Supports multiple editors (Visual, Markdown, Code), 15+ authentication providers, full-text search, and diagrams (Draw.io, PlantUML, Mermaid)** [citation:5][citation:12]. **Best for teams wanting a Git-native wiki** where content lives in version control alongside code.
+
+- **Paperless-ngx** — **The document management system that transforms paper into a searchable archive.** **Open-source, community-supported**, with all data stored locally on your server and never transmitted unless you explicitly choose to share [citation:6][citation:13]. **OCR via Tesseract** in 100+ languages, **PDF/A archival format** alongside unaltered originals, and **machine-learning auto-tagging** for correspondents and document types [citation:6]. **Full-text search** with auto-completion and relevance sorting, **shareable public links** with optional expiration, and a **multi-user permissions system** [citation:13]. **The honest boundary**: **it is a document archive, not a help content authoring server** — it indexes and retrieves existing documents rather than providing a wiki-style editor for creating help articles [citation:6]. **Best for teams wanting to archive and search existing documentation** (PDFs, Office files, scans) rather than author new content.
+
+- **Apache Answer** — **The open-source Q&A platform for help centers and knowledge management.** **Apache 2.0 licensed**, **16,000+ GitHub stars** [citation:1][citation:15]. **"A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer"** [citation:1][citation:8]. **Built with Go**, with active development (commits within the last 90 days) [citation:15]. **Best for teams** wanting a community-driven Q&A format for help content, where users ask questions and answers become the knowledge base — distinct from wiki-style hierarchical documentation.
+
+### Additional Strong Open-Source Options
+
+- **Frappe Helpdesk** — **The open-source helpdesk with integrated knowledge base.** 100% open-source, with **agent and customer portal views, customizable SLAs, assignment rules, and a knowledge base** for self-service [citation:14]. **Best for teams** wanting helpdesk ticketing and knowledge base in one integrated platform.
+
+- **Helpy** — **The open-source helpdesk with knowledgebase and community discussions.** MIT licensed, with **knowledgebase, community discussions, and support tickets integrated with email** [citation:7]. **Best for small teams** wanting a lightweight helpdesk-plus-knowledgebase combination.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Knowledge base and help content servers differ significantly in authoring model, collaboration capability, and deployment requirements. **Outline delivers the most polished Notion-class experience** but **requires OAuth setup before first login** — there is no password fallback [citation:9]. **Docmost offers real-time CRDT collaboration** with a clean Confluence alternative, but **SSO/LDAP/API access are Enterprise Edition features** [citation:3][citation:10]. **BookStack is deliberately simple and opinionated** — not designed for extensibility beyond documentation [citation:4]. **Wiki.js is Git-native** with multiple editor options [citation:5]. **Paperless-ngx is a document archive, not a help authoring server** [citation:6]. **Apache Answer is a Q&A platform**, not a hierarchical wiki — its format suits community-driven help rather than structured documentation [citation:1]. **The choice often comes down to need**: polished wiki (Outline), Confluence alternative (Docmost), simple documentation (BookStack), Git-native (Wiki.js), document archive (Paperless-ngx), or Q&A help center (Apache Answer).
+- Self-hosted open-source solutions require proper infrastructure (PostgreSQL and Redis for Outline and Docmost, MySQL for BookStack), OAuth provider configuration for Outline, and awareness that "free" self-hosted still has maintenance costs.
+
+---
+
+**Made for documentation teams, support managers, IT administrators, and developers choosing knowledge base platforms that match their authoring and collaboration needs.**
+Let's make knowledge base and help content servers more open, collaborative, and data-sovereign.
