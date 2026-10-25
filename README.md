@@ -67,3 +67,5 @@ Star the repo if you find it useful!
 
 **Made for documentation teams, support managers, IT administrators, and developers choosing knowledge base platforms that match their authoring and collaboration needs.**
 Let's make knowledge base and help content servers more open, collaborative, and data-sovereign.
+# Awesome-Knowledge-Base-Help-Content-Server
+
