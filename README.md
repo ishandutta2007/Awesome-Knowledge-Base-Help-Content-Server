@@ -83,7 +83,7 @@ Open-source knowledge base servers provide total data sovereignty, transparent c
 
 ### 🌟 Star-Ranked Open-Source Projects
 
-All projects below are ordered **descending by GitHub Stars_Count**. Each project includes a real-time stargazer badge linking directly to the repository's stargazers page.
+All projects below are ordered **descending by GitHub_Stars_Count**. Each project includes a real-time stargazer badge linking directly to the repository's stargazers page.
 
 1. **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** [![GitHub_Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) — The privacy-first AI collaborative workspace and open-source Notion alternative built with Flutter and Rust.
 2. **[AFFiNE](https://github.com/toeverything/AFFiNE)** [![GitHub_Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) — The next-generation multimodal knowledge base bringing planning, sorting, and whiteboard canvas docs into one workspace.
